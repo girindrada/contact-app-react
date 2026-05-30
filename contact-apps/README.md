@@ -1,16 +1,28 @@
-# React + Vite
+Aplikasi React sederhana untuk belajar membuat dan menampilkan daftar kontak. Proyek ini menggunakan Vite sebagai build tool dan disusun dengan struktur komponen modular.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Struktur singkat
 
-Currently, two official plugins are available:
+- index.jsx — entry point
+- src/components/ — komponen aplikasi (mis. ContactApp.jsx, ContactList.jsx, ContactItem.jsx)
+- src/utils/data.js — data contoh
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Cara menjalankan
 
-## React Compiler
+1. Install dependensi:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+```
 
-## Expanding the ESLint configuration
+2. Jalankan development server:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run dev
+```
+
+Buka http://localhost:5173 (alamat dapat berbeda sesuai keluaran Vite).
+
+## Catatan penting
+
+- Proyek ini dibuat sebagai latihan/pembelajaran.
+- Catatan: proyek ini belajar dari Dicoding.
