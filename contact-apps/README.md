@@ -1,5 +1,9 @@
 Aplikasi React sederhana untuk belajar membuat dan menampilkan daftar kontak. Proyek ini menggunakan Vite sebagai build tool dan disusun dengan struktur komponen modular.
 
+## Preview
+
+![Preview aplikasi](src/asset/preview.png)
+
 ## Struktur singkat
 
 - index.jsx — entry point
